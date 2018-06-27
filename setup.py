@@ -25,7 +25,7 @@ with open(_version_file, 'rb') as f:
 
 # Package meta-data.
 NAME = 'python-test-setup'
-DESCRIPTION = 'An example project for demonstratin an automated Python test setup with tox, unittest and travisCI.'
+DESCRIPTION = 'An example project for demonstrating an automated Python test setup with tox, unittest and travisCI.'
 URL = 'https://github.com/ps-george/python-test-setup'
 EMAIL = 'puntersg@gmail.com'
 AUTHOR = 'George Punter'
