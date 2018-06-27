@@ -1,5 +1,5 @@
 import unittest
-from python_test_setup import Hello
+from myproject import Hello
 
 class ExampleTestCase(unittest.TestCase):
     greeter = Hello()
@@ -16,4 +16,5 @@ class ExampleTestCase(unittest.TestCase):
     def test_fail(self):
         self.assertEqual('hi', self.greeter.say_hello())
 
-
+if __name__=="__main__.py":
+    unittest.main()
