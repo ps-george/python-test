@@ -1,5 +1,5 @@
 import unittest
-from myproject import Hello
+from myproject.hello import Hello
 
 class ExampleTestCase(unittest.TestCase):
     greeter = Hello()
@@ -14,7 +14,9 @@ class ExampleTestCase(unittest.TestCase):
         self.assertRaises(Exception, lambda: self.greeter.oh_dear())
 
     def test_fail(self):
-        self.assertEqual('hi', self.greeter.say_hello())
+        # Uncomment this line to see what happens when a test fails.
+        # self.assertEqual('hi', self.greeter.say_hello())
+        pass
 
-if __name__=="__main__.py":
+if __name__=="__main__":
     unittest.main()
